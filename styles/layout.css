@@ -1,0 +1,33 @@
+body{
+	font:15px/1.5 helvetica, arial, sans-serif;
+	color:#333;
+	background-color:#ccc;
+	margin:1em 10%;
+}
+h1{
+	color:#333;
+	background-color:transparent;
+}
+a{
+	color:#c60;
+	background-color:transparent;
+	font-weight:bold;
+	text-decoration:none;
+}
+ul{
+	padding:0;
+}
+
+li{
+	float:left;
+	padding:1em;
+	list-style:none;
+}
+li:last-of-type{
+	float:none;
+}
+#img{
+	width:420px;
+	height:320px;
+	overflow:auto;
+}

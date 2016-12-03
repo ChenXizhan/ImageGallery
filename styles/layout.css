@@ -26,8 +26,3 @@ li{
 li:last-of-type{
 	float:none;
 }
-#img{
-	width:420px;
-	height:320px;
-	overflow:auto;
-}

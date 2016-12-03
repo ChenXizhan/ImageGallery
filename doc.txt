@@ -63,3 +63,10 @@
 
 		window.onload=prepareLinks;
 	现在可以去掉链接中的onclick事件属性了，然后，为每个链接添上一个class属性，class = "popup"
+
+6. 上面的方式虽然将javascript分离了，但是给每个链接都加上class属性显然很麻烦，另外，也没有对用到的方法进行检查，万一浏览器不支持某个方法，就会导致错误。
+	先解决第一个问题，注意到所有的图片链接都位于一个列表ul内，我可以个ul加上一个id='image-gallery',在javaScript中利用document.getElementById()方法获得列表元素，然后用getElementsByTagName("a")获得列表内所有链接，遍历添加onclick事件属性。
+
+	第二个，添加一些检查项。
+
+
